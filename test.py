@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1LUN7XKmW6bsbrA-sdREMaU851owCqrgf
 """
 
-!pip install flask
+
 from flask import Flask, render_template
 
 with open("test.html", "w", encoding="utf-8") as f:
